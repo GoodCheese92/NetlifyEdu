@@ -3,19 +3,28 @@
 *{margin:0; padding: 0;}
 ul{list-style:none;}
 a{text-decoration: none;}
-.upperMenu{margin-left:15px;
+/*.upperMenu{margin-left:15px;
            font:bold 30px "hy헤드라인m", sans-serif;
            display: block;
-           background: cadetblue;}
+           background: cadetblue;
+           width: 500px}*/
 .subMenu{font:bold 20px "hy헤드라인m", sans-serif;
-         margin-left:30px;
-         display: none;}
+         margin-left:30px;}
 .contents{margin-left:45px;}
 .subMenu a{display: block;
            background: chartreuse;
            width:200px;
            padding:5px;}
-.upperMenu .subMenu .contents{display: none;}
+.exMenu{display: block;
+        width:500px;
+        padding: 5px;
+        background: aquamarine;}
+.date{display: block;
+      width:200px;
+      padding: 5px;
+      font:bold 30px "hy헤드라인m", sans-serif;
+      background: cadetblue;
+      margin-left: 15px;}
 /*.upperMenu .subMenu{display: none;}
 .upperMenu li:hover .subMenu{display: block;}
 .upperMenu li:active .subMenu{display: block;}

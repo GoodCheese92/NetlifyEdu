@@ -1,25 +1,30 @@
-let display_date = true;
+let upperCheck = false;
 $(function (){
     // upperMenu 동작 감지
     $(".date").click(function (){
-        alert("btn1 클릭됨");
-        if(display_date){
-            $(".subMenu").css("display", "block");
+        let dateHtml = $(this).html();
+        alert(dateHtml);
+        if(upperCheck){
+            $("#"+dateHtml).find(".subMenu").css("display", "none");
         } else {
-            $(".subMenu").css("display", "none");
+            $("#"+dateHtml).find(".subMenu").css("display", "block");
         }
-        display_date = !display_date;
+        upperCheck = !upperCheck;
     });
-
-let display_subMenu = true;
-    $(".subMenu").click(function (){
-        alert("서브 메뉴 클릭됨")
-        if(display_subMenu){
-            $(this).children(".contents").css("display", "block");
-        } else {
-            $(this).children(".contents").css("display", "none");
+let exCheck = false;
+    $(".exMenu").click(function (){
+        let Check = $(this).parent().find(".contents").is(":visible");
+        if(Check){
+          alert("참");
+        } else{
+          alert("거짓");
         }
-        display_subMenu = !display_subMenu;
+        if(Check){
+            $(this).parent().find(".contents").css("display", "none");
+        } else {
+            $(this).parent().find(".contents").css("display", "block");
+        }
+        exCheck = false;
     });
 
 });
