@@ -2,9 +2,15 @@ let upperCheck = false;
 $(function (){
     // upperMenu 동작 감지
     $(".date").click(function (){
+        let Check = $(this).parent().find(".subMenu").is(":visible");
+        if(Check){
+            alert("참");
+        } else{
+            alert("거짓");
+        }
         let dateHtml = $(this).html();
-        alert(dateHtml);
-        if(upperCheck){
+        // alert(dateHtml);
+        if(Check){
             $("#"+dateHtml).find(".subMenu").css("display", "none");
         } else {
             $("#"+dateHtml).find(".subMenu").css("display", "block");
