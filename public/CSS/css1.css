@@ -63,10 +63,11 @@ h2 .s_green_0221_ex09{color:#00ff00;}
 #bb_0221_ex10{color:fuchsia;}
 
 /* 0221_ex11 */
-#0221_ex11 li p{border-width:20px;
+#ul_0221_ex11 li p{border-width:20px;
                 border-color:blue;
                 font-size: 15px;
-                color:red;}
+                color:red;
+                margin-bottom: 5px;}
 .box1_0221_ex11{border-style: none;}
 .box2_0221_ex11{border-style: hidden;}
 .box3_0221_ex11{border-style: dotted;}
@@ -77,7 +78,58 @@ h2 .s_green_0221_ex09{color:#00ff00;}
 .box8_0221_ex11{border-style: ridge;}
 .box9_0221_ex11{border-style: inset;}
 .box10_0221_ex11{border:20px #f00 outset;}
+.div1_0221_ex11{border: 10px solid green;
+                width:200px;
+                height:100px;}
+.div2_0221_ex11{border-left: 10px solid blue;
+                border-right:10px solid blue;}
+.div3_0221_ex11{border-width: 10px 20px 30px 40px;
+                border-style: solid;
+                border-color: blue red;}
 
+/* 0221_ex12 */
+.div1_0221_ex12{border:green solid;
+                border-width: 5px 2px 8px 5px;
+                width:800px;
+                height:100px;
+                margin:5px;}
+.div2_0221_ex12{border:2px solid;
+                border-color:red blue green fuchsia;
+                width:800px;
+                height:100px;
+                margin:5px;}
+.div3_0221_ex12{border:2px black;
+                border-style:solid double dashed dotted;
+                width:800px;
+                height:100px;
+                margin:5px;}
+.div4_0221_ex12{border-top:2px #266000 solid;
+                border-bottom:2px #266000 solid;
+                width:800px;
+                height:100px;
+                margin:5px;}
+
+/* 0223_ex01 */
+.a1_0223_ex01{text-decoration: none;}
+.a2_0223_ex01{text-decoration: overline;}
+.a3_0223_ex01{text-decoration: underline;}
+.a4_0223_ex01{text-decoration: line-through;}
+
+/* 0223_ex02 */
+.li_0223_ex02{list-style: none;
+              display: inline;}
+
+/* 0223_ex03 */
+#ul_0223_ex03 p{border: 1px solid black;
+                padding: 5px;
+                width: 150px;
+                height: 50px;}
+
+.a1_0223_ex03{overflow: hidden;}
+.a2_0223_ex03{overflow: scroll;}
+.a3_0223_ex03{overflow: auto;}
+.a4_0223_ex03{overflow: visible;}
+.a5_0223_ex03{overflow: auto;}
 
 
 
