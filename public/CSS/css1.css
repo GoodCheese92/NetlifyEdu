@@ -109,6 +109,28 @@ h2 .s_green_0221_ex09{color:#00ff00;}
                 height:100px;
                 margin:5px;}
 
+/* 0222_ex01 */
+#ul_0222_ex01 p{border: 5px solid red;
+                background: yellow;}
+
+.box1_0222_ex01{padding: 20px;}
+.box2_0222_ex01{padding: 20px 50px;}
+.box3_0222_ex01{padding: 0 50px 30px;}
+.box4_0222_ex01{padding: 20px 30px 50px 70px;}
+
+/* 0222_ex02 */
+#ul_0222_ex02 p{border-width: 10px 0 10px;
+                border-style: solid;
+                border-color: red;
+                width: 400px;
+                padding:10px;
+                text-indent: 20px;
+                text-align: justify;
+                line-height: 1.4;}
+
+/* 0222_ex03 */
+
+
 /* 0223_ex01 */
 .a1_0223_ex01{text-decoration: none;}
 .a2_0223_ex01{text-decoration: overline;}
