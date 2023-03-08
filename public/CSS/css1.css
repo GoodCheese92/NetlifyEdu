@@ -129,7 +129,43 @@ h2 .s_green_0221_ex09{color:#00ff00;}
                 line-height: 1.4;}
 
 /* 0222_ex03 */
+#ul_0222_ex03 p{border:10px solid red;
+                background: aqua;
+                }
+.box1_0222_ex03{margin:20px;}
+.box2_0222_ex03{margin:40px 60px;}
+.box3_0222_ex03{margin:20px 50px 30px;}
+.box4_0222_ex03{margin:20px 30px 50px 0;}
+.box5_0222_ex03{margin:0px;}
 
+/* 0222_ex04 */
+.a1_0222_ex04{font-size:20px;}
+.a2_0222_ex04{font-style:italic;}
+.a3_0222_ex04{font-weight:bold;}
+.a4_0222_ex04{font-family: "궁서", "굴림", sans-serif;}
+.a5_0222_ex04{font-variant: small-caps;}
+.a6_0222_ex04{font:bold italic small-caps 20px sans-serif;}
+
+/* 0222_ex05 */
+#ul_0222_ex05 *{margin:0; padding: 0;}
+#ul_0222_ex05 dl{border:5px double gray;
+                 width: 600px;
+                 margin:0 auto;}
+#ul_0222_ex05 dt{padding: 15px 0;
+                 text-align: center;
+                 background: #aaf;
+                 font:bold 20px "궁서", sans-serif;
+                 border-bottom:5px solid black;
+                 letter-spacing: 10px;}
+#ul_0222_ex05 dd{padding:10px 0;
+                 background: yellowgreen;
+                 text-indent: 15px;
+}
+
+/* 0222_ex06 */
+.li_0222_ex06{background: darkgreen url("fall1.jpg") repeat;
+              color: red;
+              font-weight: bold;}
 
 /* 0223_ex01 */
 .a1_0223_ex01{text-decoration: none;}
@@ -152,6 +188,8 @@ h2 .s_green_0221_ex09{color:#00ff00;}
 .a3_0223_ex03{overflow: auto;}
 .a4_0223_ex03{overflow: visible;}
 .a5_0223_ex03{overflow: auto;}
+
+
 
 
 
