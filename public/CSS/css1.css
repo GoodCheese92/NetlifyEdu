@@ -167,6 +167,50 @@ h2 .s_green_0221_ex09{color:#00ff00;}
               color: red;
               font-weight: bold;}
 
+/* 0222_ex07 */
+#ul_0222_ex07 p{width: 500px; height: 150px;
+                border: 1px solid black;}
+
+.b1_0222_ex07 {background: #2DB400 url("fall1.jpg") no-repeat right bottom;
+               background-size: 150px;}
+.b2_0222_ex07 {background: #2DB400 url("fall1.jpg") no-repeat 20px 100px;
+               background-size: 150px;}
+.b3_0222_ex07 {background: #2DB400 url("fall1.jpg") no-repeat center;
+               background-size: 150px;}
+.b4_0222_ex07 {background: #2DB400 url("fall1.jpg") no-repeat 70% 10%;
+               background-size: 150px;}
+
+/* 0222_ex08 */
+.c1_0222_ex08 li{background: url("image/bg_dotted.gif") no-repeat 0 50%;
+                 padding-left: 10px;}
+.c2_0222_ex08 li{background: url("image/arrow.gif") no-repeat 0 50%;
+                 padding-left: 10px;}
+
+/* 0222_ex09 */
+#header_0222_ex09 h1{color: red;}
+#content_0222_ex09 h1{color: blue;}
+
+/* 0222_ex10 */
+.header_0222_ex10 > h1 {color: red;}
+
+/* 0222_ex11 */
+.span_0222_ex11{display: block;
+                background: darkgreen;}
+
+/* 0222_ex12 */
+.main_menu_0222_ex12{width:130px;
+                     /*border: 1px red solid;*/}
+.main_menu_0222_ex12 a{text-decoration: none;
+                       background: #266000;
+                       padding: 5px;
+                       display: block;
+                       margin: 3px 0;
+                       color: #fff;
+}
+.main_menu_0222_ex12 a:hover{font-weight:bold;
+                             background:#0c0;
+                             color:#ff0;}
+
 /* 0223_ex01 */
 .a1_0223_ex01{text-decoration: none;}
 .a2_0223_ex01{text-decoration: overline;}
@@ -189,17 +233,271 @@ h2 .s_green_0221_ex09{color:#00ff00;}
 .a4_0223_ex03{overflow: visible;}
 .a5_0223_ex03{overflow: auto;}
 
+/* 0223_ex04 */
+.d1_0223_ex04 p:first-child{color: blue;}
+.d1_0223_ex04 p:last-child{color: red;}
 
+/* 0223_ex05 */
+.ul_0223_ex05 li{display: inline;
+                 font-size:50px;}
 
+.ul_0223_ex05 li:nth-child(odd){color: red;}
+.ul_0223_ex05 li:nth-child(even){color: blue;}
+.ul_0223_ex05 li:nth-child(4n){background: #266000;}
+.ul_0223_ex05 li:nth-child(6){color: brown; background: yellow;}
 
+/* 0223_ex06 */
+.a_0223_ex06:hover{color:orange;
+                   text-decoration: underline;}
+.a_0223_ex06:active{color:red;
+                   text-decoration: underline;}
 
+/* 0223_ex07 */
+#ul_0223_ex07 p{border:1px solid black;
+                width: 50px;
+                padding:50px;
+                position:absolute;}
+.box1_0223_ex07{background: yellow; left: 450px; top: 200px; z-index: 3;}
+.box2_0223_ex07{background: red; left: 470px; top: 220px; z-index: 2;}
+.box3_0223_ex07{background: darkgreen; left: 490px; top: 240px; z-index: 1;}
 
+/* 0223_ex08 */
+#container_0223_ex08{width:500px;
+                     margin:10px auto;
+                     border:5px solid #caa;
+                     background: #fdd;
+                     overflow:hidden;}
+#container_0223_ex08 h1{text-align: center;}
+.coffee_0223_ex08{width:200px;
+                 height:100px;
+                 padding:15px;
+                 background:#ba7;
+                 float:left;}
+.green_0223_ex08{width:200px;
+                  height:100px;
+                  padding:15px;
+                  background:#2db600;
+                  float:right;}
 
+/* 0223_ex09 */
+#wrap_0223_ex09{border:1px solid black;
+                width:700px;
+                height:500px;
+                margin: 10px auto;
+                background:#2db600;
+                font-weight:bold;
+                font-family:"휴먼명조", sans-serif;}
+#header_0223_ex09{background:white;
+                margin-bottom:10px;
+                text-align:center;
+                font-size:50px;
+                color:blue;
+                font-family:"hy헤드라인m", sans-serif;}
+#content_0223_ex09{background:#B7F0B1;
+    margin-bottom:10px;
+    overflow:hidden;
+    text-indent:10px;}
+.left_0223_ex09{float:left;
+                width:200px;
+                height:250px;
+                padding:10px;
+                background:#ABF200;}
+.center_0223_ex09{float:left;
+                width:200px;
+                height:250px;
+                padding:10px;
+                margin:0 20px;
+                background:#DAD9FF;
+}
+.right_0223_ex09{float:right;
+                width:200px;
+                height:250px;
+                padding:10px;
+                background:#86E57F;
+}
+.span_0223_ex09{display:block;
+                text-align:center;}
+#footer_0223_ex09{text-align:center;
+                  font:bold italic 30px "hy신명조", sans-serif;}
 
+/* 0223_ex10 */
+.table_0223_ex10{width: 200px;
+    border-collapse: collapse;}
 
+/* 0223_ex11 */
+#header_0223_ex11{width:1000px; height:80px;
+                  margin:10px auto;
+                  border:1px solid red;
+                  position:relative; /* absolute 속성을  자식을 내 자식으로 인지하도록 하는 코드 */}
+#header_0223_ex11 p:last-child{position:absolute; right:10px; top:5px;}
+.aa_0223_ex11{position:absolute; left:0; top:7px;}
 
+.a1_0223_ex11{position:absolute; left:350px; top:10px;
+              overflow: hidden;}
+.a2_0223_ex11{position:absolute; left:225px; top:40px;
+              overflow: hidden;}
+.a1_0223_ex11 li, .a2_0223_ex11 li{float:left;}
+.li1_0223_ex11{padding-left:6px;}
 
+/* 0224_ex01 */
+#header_0224_ex01{width:960px; height:150px;
+                  margin:10px auto;
+                  border:1px solid red;
+                  position:relative;}
+#hgroup_0224_ex01{position:absolute; left:5px; top:3px;}
+/* a1 정의 */
+#a1_0224_ex01 li, #a2_0224_ex01 li{float:left;}
+#a1_0224_ex01 ul{overflow:hidden;}
+#a1_0224_ex01{position:absolute; right:3px; top:3px;}
+#a1_0224_ex01 ul li{border-right:1px solid gray; /* 모두 다 주면 2px로 중간에 겹치므로 오른쪽만 일단 설정 */
+                    border-top:1px solid gray;
+                    border-bottom:1px solid gray;}
+#a1_0224_ex01 ul li:first-child{border-left:1px solid gray;}
+#a1_0224_ex01 ul li a{display:block; /* 글 전체의 색 및 padding 등을 주기 위해 block으로 변경 */
+                      padding:5px 2px;
+                      color:#2db600;
+                      width:80px;
+                      text-align:center;}
+#a1_0224_ex01 ul li a:hover{background:#999; color:#fff;}
+/* a2 정의 */
+#a2_0224_ex01{position:absolute; right:3px; bottom:3px;}
+#a2_0224_ex01 ul{overflow:hidden;}
+#a2_0224_ex01 ul li{border-right:1px solid gray;
+                    border-top:1px solid gray;
+                    border-bottom:1px solid gray;}
+#a2_0224_ex01 ul li:first-child{border-left:1px solid gray;}
+#a2_0224_ex01 ul li a{display:block; /* 글 전체의 색 및 padding 등을 주기 위해 block으로 변경 */
+                      padding:15px 2px;
+                      color:blue;
+                      width:150px;
+                      text-align:center;}
+#a2_0224_ex01 ul li a:hover{background:#999; color:#fff;}
 
+/* 0224_ex02 */
+#container_0224_ex02{width:300px; height:1500px;
+                     background:#2db600;}
+.footer_0224_ex02{width:500px; background:#000; color:#fff;
+                   position:fixed; bottom:3px; /* 스크롤이 움직여도 화면의 밑에 고정이 되어있다. */}
+
+/* 0224_ex03 */
+#ul_0224_ex03 table, #ul_0224_ex03 th, #ul_0224_ex03 td{border-collapse:collapse;
+                                                      border-color:gray;}
+#ul_0224_ex03 table{width:900px; height:450px;
+                    margin:10px auto;
+                    background:#ffc;}
+#ul_0224_ex03 table caption{font:bold 40px "hy헤드라인m", sans-serif; /* font를 여러개 설정할 때 size와 family(글꼴)은 항상 넣어줘야 한다. */
+                            color:blue;
+                            margin-bottom:15px;}
+#ul_0224_ex03 th{font-size:20px;
+                 font-family:"hy신명조", sans-serif;
+                 width:100px; /* table의 전체 width가 900px이기 때문에 알아서 잘 설정이 된다. */
+                 text-align: center;}
+
+#ul_0224_ex03 thead th{padding:15px 0;
+                       background:#2db600;
+                       border-bottom:5px double #003;}
+
+#ul_0224_ex03 th:nth-child(1){border-right: 3px solid #003; }
+#ul_0224_ex03 td{height:100px;
+                 text-align:center;
+                 font-family:"휴먼명조", sans-serif;}
+
+/* 0224_ex04 */
+#ul_0224_ex04{background:#333; color:#ccc;}
+#ul_0224_ex04 table{width:1000px;
+                    margin:10px auto;}
+#ul_0224_ex04 caption{font-size:40px;
+                      font-family:"hy헤드라인m", sans-serif;
+                      font-weight:bold;
+                      margin-bottom:10px;}
+#ul_0224_ex04 th{text-align: center;}
+#ul_0224_ex04 td{padding:15px;}
+#ul_0224_ex04 td:nth-child(1),#ul_0224_ex04 td:nth-child(2),#ul_0224_ex04 td:nth-child(3){border-right:1px solid #999;}
+/*#ul_0224_ex04 td:nth-child(1),#ul_0224_ex04 td:nth-child(2),#ul_0224_ex04 td:nth-child(4){text-align:center;}*/
+#ul_0224_ex04 td:not(:nth-child(3)){text-align: center;}
+#ul_0224_ex04 td{border-top:1px solid #999;}
+#ul_0224_ex04 tr:last-child td{border-bottom:1px solid #999;}
+
+.menu_0224_ex04 th{border-right:1px solid #999;
+    border-top:1px solid #999;
+    border-bottom:1px double #999;
+    font:20px "hy신명조", sans-serif;
+    padding-bottom:5px;}
+.menu_0224_ex04 th:last-child{border-right:none;}
+
+.menu_0224_ex04 a:visited{color:#ccc;}
+.menu_0224_ex04 a:hover{color:#2db600;}
+.menu_0224_ex04 a:active{color: red;}
+
+/* 0224_ex05 */
+#ul_0224_ex05 p{width:800px;
+                margin:10px auto;
+                text-align:center;
+                font-weight:bold;}
+#ul_0224_ex05 .a1{color:#2db600;}
+#ul_0224_ex05 .a2{background:#ABF200;}
+#ul_0224_ex05 .a3{font-size:50px;}
+
+/* 0224_ex06 */
+.a0_0224_ex06{width:200px;
+                 border:1px solid red;
+                 padding:80px 0;
+                 text-align:center;
+                 margin:10px auto;
+                 background: yellow;
+                 border-radius:100px;}
+.a1_0224_ex06{width:200px;
+              background:green;
+              padding:80px 0;
+              text-align:center;
+              margin:10px auto;
+              border-radius:20px 40px; /* border-radius:사각형의 테두리 굴곡을 설정할 수 있다. */
+}
+.a2_0224_ex06{width:200px;
+              background:red;
+              padding:80px 0;
+              text-align:center;
+              margin:10px auto;
+              border-radius:20px 40px 60px;
+}
+.a3_0224_ex06{width:200px;
+              background:blue;
+              padding:80px 0;
+              text-align:center;
+              margin:10px auto;
+              border-radius:20px 40px 60px 80px;
+}
+.a4_0224_ex06{margin:10px auto; text-align:center;}
+#ul_0224_ex06 img{border-radius:50px;}
+
+/* 0224_ex07 */
+#ul_0224_ex07 p{width:300px; height: 200px;
+                padding:10px;
+                background:#2db600;
+                margin:30px auto;}
+.p1_0224_ex07{box-shadow:10px 10px 5px rgba(0, 0, 255, 0.3);}
+.p2_0224_ex07{box-shadow:inset 5px -5px 5px 10px #333;}
+
+/* 0224_ex08 */
+#ul_0224_ex08{background:#fff;
+               font-size:100px;}
+.p_0224_ex08{width:300px; height:200px;
+             background:#000;
+             text-align:center;
+             padding:20px 10px;
+             margin: 10px auto;
+             text-shadow:0 0 4px #ccc,
+             0 -5px 4px #ff3,
+             2px -10px 6px #fd3,
+             -2px -15px 11px #f80,
+             2px -19px 18px #f20;}
+.p_0224_ex08:hover{text-shadow:0 0 4px #cca,
+                   0 -5px 4px #ffa,
+                   2px -10px 6px #fda,
+                   -2px -15px 11px #f8a,
+                   2px -19px 18px #f2a;}
+
+/* 0224_ex09 */
 
 
 
