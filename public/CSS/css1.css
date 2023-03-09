@@ -498,6 +498,33 @@ h2 .s_green_0221_ex09{color:#00ff00;}
                    2px -19px 18px #f2a;}
 
 /* 0224_ex09 */
+.t_0224_ex09{width:300px; height:300px;
+             margin:10px auto;
+             background:#2db600;
+             border-radius:0px;
+             transition-property:background, border-radius;
+             transition-duration:1s;
+             transition-delay:1s;
+             -moz-transition-property:background, border-radius;
+             -moz-transition-duration:1s; /* 1초에 걸쳐 배경색과 테두리를 변경할 예정 */
+             -moz-transition-delay:1s; /* 1초 후 변경 */
+             -o-transition-property:background, border-radius;
+             -o-transition-duration:1s; /* 1초에 걸쳐 배경색과 테두리를 변경할 예정 */
+             -o-transition-delay:1s;}
+.t_0224_ex09:hover{background:blue;
+                   border-radius:50px;}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
